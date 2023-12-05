@@ -7,6 +7,9 @@ Import the necessary PySpark SQL functions for this assignment.
 
 Read the home_sales_revised.csv data in the starter code into a Spark DataFrame.
 
+![image](https://github.com/Dusko2779/BootCamp_home_sales/assets/134830906/af7c0271-aca2-44b1-8515-e3d7004f6205)
+
+
 Create a temporary table called home_sales.
 
 Answer the following questions using SparkSQL:
@@ -16,6 +19,9 @@ What is the average price for a four-bedroom house sold for each year? Round off
 What is the average price of a home for each year it was built that has three bedrooms and three bathrooms? Round off your answer to two decimal places.
 
 What is the average price of a home for each year that has three bedrooms, three bathrooms, two floors, and is greater than or equal to 2,000 square feet? Round off your answer to two decimal places.
+
+![image](https://github.com/Dusko2779/BootCamp_home_sales/assets/134830906/ceefef88-c61d-47f2-b1ff-e8b2646b5dfc)
+
 
 What is the "view" rating for homes costing more than or equal to $350,000? Determine the run time for this query, and round off your answer to two decimal places.
 
@@ -27,9 +33,15 @@ Using the cached data, run the query that filters out the view ratings with an a
 
 Partition by the "date_built" field on the formatted parquet home sales data.
 
+![image](https://github.com/Dusko2779/BootCamp_home_sales/assets/134830906/00d4b6f5-aa44-4545-a7ce-1b82dbe04ae3)
+
+
 Create a temporary table for the parquet data.
 
 Run the query that filters out the view ratings with an average price of greater than or equal to $350,000. Determine the runtime and compare it to uncached runtime.
+
+![image](https://github.com/Dusko2779/BootCamp_home_sales/assets/134830906/2c61abd5-4581-42ae-962e-44fc0929b9b5)
+
 
 Uncache the home_sales temporary table.
 
