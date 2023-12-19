@@ -1,6 +1,6 @@
 # Module_22_Home_Sales
  
-Instructions
+### Instructions
 Rename the Home_Sales_starter_code.ipynb file as Home_Sales.ipynb.
 
 Import the necessary PySpark SQL functions for this assignment.
@@ -10,7 +10,7 @@ Read the home_sales_revised.csv data in the starter code into a Spark DataFrame.
 ![image](https://github.com/Dusko2779/BootCamp_home_sales/assets/134830906/af7c0271-aca2-44b1-8515-e3d7004f6205)
 
 
-Create a temporary table called home_sales.
+### Create a temporary table called home_sales.
 
 Answer the following questions using SparkSQL:
 
@@ -36,7 +36,7 @@ Partition by the "date_built" field on the formatted parquet home sales data.
 ![image](https://github.com/Dusko2779/BootCamp_home_sales/assets/134830906/00d4b6f5-aa44-4545-a7ce-1b82dbe04ae3)
 
 
-Create a temporary table for the parquet data.
+### Create a temporary table for the parquet data.
 
 Run the query that filters out the view ratings with an average price of greater than or equal to $350,000. Determine the runtime and compare it to uncached runtime.
 
